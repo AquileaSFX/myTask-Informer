@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "/"
-AuthUserFile "/home/aquileas/public_html/taskInformer/admin/.htpasswd"
-require valid-user
