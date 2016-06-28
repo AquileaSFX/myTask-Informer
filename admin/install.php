@@ -9,8 +9,7 @@
    $db = new MyDB();
    if(!$db){
       echo $db->lastErrorMsg();
-   } 
-
+   }
    $sql =<<<EOF
       CREATE TABLE TASKS
       (ID INTEGER PRIMARY KEY     AUTOINCREMENT,
@@ -27,6 +26,9 @@ EOF;
    $ret = $db->exec($sql);
    if(!$ret){
       echo $db->lastErrorMsg();
+   }else {
+      echo "installed successfully";
+      echo "<a href='index.php'>click here to add your first task</a>";
    }
    $db->close();
 ?>

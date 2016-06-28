@@ -1,0 +1,70 @@
+input, textarea{
+  width:350px;
+}
+label{
+  display: block;
+  width: 200px;
+}
+textarea{
+  height: 150px;
+}
+.mydate{
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+.mytaskstitle h6{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+.nomargin{
+  margin: 0;
+}
+ul{
+  margin-left: 40px;
+}
+.mymainli{
+  padding-bottom: 23px;
+}
+.mydesctitle{
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: underline;
+}
+.mydescbox{
+  border: 1px solid white;
+  width: 80%;
+  height: auto;
+  list-style-type: none;
+  display: none;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 15px;
+}
+.mynone{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.mydone{
+  font-style: italic;
+  font-weight: bold;
+  color: #18C933;
+}
+.myinprogress{
+  font-style: italic;
+  font-weight: bold;
+  color: #0B439E;
+}
+.mywaiting{
+  font-style: italic;
+  font-weight: bold;
+  color: #F58916;
+}
+.mystoped{
+  font-style: italic;
+  font-weight: bold;
+  color: #D11313;
+}
